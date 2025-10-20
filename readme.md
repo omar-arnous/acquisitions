@@ -26,6 +26,7 @@ acquisutions
 
 #### Dependencies
 
+```
 `express`
 `dotenv`
 `eslint`
@@ -33,3 +34,8 @@ acquisutions
 `prettier`
 `eslint-config-prettier`
 `eslint-plugin-prettier`
+`winston` -> for logging
+`helmet` -> for secure headers
+`morgan` -> request logger
+`cors` -> handle which external domain can make a request to it
+```
